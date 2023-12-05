@@ -1,0 +1,61 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+}  
+
+h1{
+    color: gold;
+    margin: 2rem;
+    background-color: rgba(127, 255, 212, 0.143);
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 0 2px rgb(189, 189, 189);
+
+}
+
+.content{
+    height: 50%;
+    aspect-ratio: 1/1;
+    background-color: rgba(127, 255, 212, 0.143);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    gap: 8rem;
+}
+
+input{
+    all: unset;
+    background-color: white;
+    outline: 1px solid black;
+    height: 2rem;
+    width: 70%;
+    border-radius: 10px;
+    color: rgb(255, 14, 14);
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+button{
+    all: unset;
+    padding: 1rem 3rem;
+    background-color: rgba(0, 255, 255, 0.437);
+    border-radius: 10px;
+    cursor: pointer;
+    color: gold;
+    font-weight: 700;
+    font-size: 25px;
+    
+}
